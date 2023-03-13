@@ -1,0 +1,15 @@
+
+.CreateTodoButton {
+    width: 150px;
+    height: 30px;
+    margin: 10px 0px 0px 0px;
+    background-color: var(--color-2);
+    color: var(--color-1);
+    font-size: var(--size-2);
+    border: none;
+    border-radius: 10px;
+}
+.CreateTodoButton:hover {
+    background-color: whitesmoke;
+    color: var(--color-2);
+}

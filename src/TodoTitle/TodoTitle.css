@@ -1,0 +1,8 @@
+.TodoTitle {
+    font-size: var(--size-4);
+    font-family: var(--font-3);
+    text-align: center;
+    padding: 5px;
+    margin: 10px 5px 5px 5px;
+    color: var(--color-3)
+}

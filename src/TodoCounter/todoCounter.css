@@ -1,0 +1,7 @@
+.todoCounter {
+    font-size: var(--size-2);
+    text-align: center;
+    padding: 1px;
+    margin-top: 1px;
+    color: var(--color-2);
+}
