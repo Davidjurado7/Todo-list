@@ -1,0 +1,10 @@
+.TodoSearch {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 160px;
+    height: 25px;
+    font-size: var(--size-1);
+    margin: 20px 5px;
+}
