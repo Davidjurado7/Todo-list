@@ -9,6 +9,8 @@ import './App.css';
 
 function AppUI ({
     completedTodos,
+    loading,
+    error,
     totalTodos, 
     searchValue,
     setSearchValue,
@@ -31,7 +33,11 @@ function AppUI ({
       setSearchValue={setSearchValue}
      />
     
-    <TodoList>
+    <TodoList> 
+      {loading && <p>Estamos cargando</p>}
+      {error && <p>Tenemos un error</p>}
+      {(!loading && !searchTodos.length) && <p>Crea tu primera tarea</p>}
+
       {searchTodos.map(todo => (
         <TodoItem
           key={todo.text}
