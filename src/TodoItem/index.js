@@ -1,5 +1,8 @@
 import React from "react";
 import './TodoItem.css';
+import { MdDeleteForever } from "react-icons/md";
+import { BiBadgeCheck } from "react-icons/bi";
+
 
 function TodoItem(props) {
 
@@ -9,7 +12,7 @@ function TodoItem(props) {
                 className={`Icon Icon-check ${props.completed && 'Icon-check--active'}`}
                 onClick={props.onComplete}
             >    
-                √
+                <BiBadgeCheck size={"1.5em"}/>
             </span>
             <p
                 className={`TodoItem-p ${props.completed && 'TodoItem-p--complete'}`}
@@ -20,7 +23,7 @@ function TodoItem(props) {
                 className="Icon Icon-delete"
                 onClick={props.onDelete}
             >
-                X
+                <MdDeleteForever size={"1.2em"}/>
             </span>
         </li>
     );

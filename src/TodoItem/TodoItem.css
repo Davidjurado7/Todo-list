@@ -33,7 +33,7 @@
   
   .Icon-check {
     position: absolute;
-    left: -10px;
+    left: 0px;
   }
   .Icon-check--active {
     color: #4caf50;
